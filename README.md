@@ -1,6 +1,6 @@
-So Hey. The main reason for thie repo is that I did not find any bot that actually works because Whatsapp keeps changing things in order to lessen the web bots, so I thought, how hard can it be?
+So Hey. The main reason for this project is that I did not find any bot that actually works because Whatsapp keeps changing things in order to lessen the web bots, so I thought, how hard can it be?
 
-I took ideas and implemntations from [bruno222/whatsapp-web-bot](https://github.com/bruno222/whatsapp-web-bot) but the structure is far different.
+I took ideas and implementations from [bruno222/whatsapp-web-bot](https://github.com/bruno222/whatsapp-web-bot) but the structure is far different.
 
 I implemented only the basics, and now anyone that wants to go on with this bot can do it without starting from scratch.
 
@@ -16,7 +16,7 @@ Main functions:
 
 `sendMessage`:
  - Gets a message and a chat name and sends the message to the given chat.
- - The chat name must be in the latest chats (chats that in the cache^, call getAllLastChatNames() for check those chats).
+ - The chat name must be in the latest chats (chats that in the cache^, call getAllLastChatNames() for see those chats).
  - Example: `sendMessage('group', 'Hey.. Whatup?')`.
 
 `getLastestChatsLastMessages`:
