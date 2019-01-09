@@ -6,13 +6,15 @@ Feel free to fork and create Pull Requests to my repo.
 
 ### The Code ###
 
-NOTE: ** For running the code, copy the .js file content and paster it on the console. **
+NOTE:
+
+** For running the code, copy the .js file content and paster it on the console.
 
 Main functions:
 
 `sendMessage`:
  - Gets a message and a chat name and sends the message to the given chat.
- - The chat name must be in the latest chats (chats that in the cache*, call getAllLastChatNames() for check those chats).
+ - The chat name must be in the latest chats (chats that in the cache^, call getAllLastChatNames() for check those chats).
  - Example: `sendMessage('group', 'Hey.. Whatup?')`.
 
 `getLastestChatsLastMessages`:
@@ -21,10 +23,11 @@ Main functions:
 
 `getMessagesFromSpecificUser`:
  - Gets a chat-name and an array.
- - Moves thourgh chat-name message (messages that in the cache*) and return the messages.
+ - Moves thourgh chat-name message (messages that in the cache^) and return the messages.
  - Example: `let a = []; getMessagesFromSpecificUser('group', a);`
 
-* = The site manages some cache, because it does not need any conversation from the past to do something. If you want to expand the collection - scroll up for more chats/message, and it will be added to the cache automatically.
+
+^ = The site manages some cache, because it does not need any conversation from the past to do something. If you want to expand the collection - scroll up for more chats/message, and it will be added to the cache automatically.
 
 Hope I helped someone.
 welloworld.
