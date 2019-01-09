@@ -6,7 +6,7 @@ Feel free to fork and create Pull Requests to my repo.
 
 ### The Code ###
 
-NOTE: *** For running the code, copy the .js file content and paster it on the console. ***
+NOTE: ** For running the code, copy the .js file content and paster it on the console. **
 
 Main functions:
 
